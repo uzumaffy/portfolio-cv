@@ -6,7 +6,7 @@ export default function Navigation() {
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="https://flowbite.com/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-           Smith<span className="">.</span>CV
+            Smith<span className="">.</span>CV
           </span>
         </a>
         <button
@@ -45,11 +45,11 @@ export default function Navigation() {
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <NavItem titleItem="About" linkItem="/" />
-            <NavItem titleItem="Skills" linkItem="/skills" />
-            <NavItem titleItem="Services" linkItem="/services" />
-            <NavItem titleItem="Portfolio" linkItem="/portfolio" />
-            <NavItem titleItem="Testimonials" linkItem="/testimony" />
-            <NavItem titleItem="Contact" linkItem="/contact" />
+            <NavItem titleItem="Skills" linkItem="/Skills" />
+            <NavItem titleItem="Services" linkItem="/Services" />
+            <NavItem titleItem="Portfolio" linkItem="/Portfolio" />
+            <NavItem titleItem="Testimonials" linkItem="/Testimony" />
+            <NavItem titleItem="Contact" linkItem="/Contact" />
           </ul>
         </div>
       </div>

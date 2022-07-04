@@ -8,7 +8,6 @@ import Skillspage from "./pages/Skills";
 import Errorpage from"./pages/Error";
 
 
-
 function App() {
   return (
     <Router>
