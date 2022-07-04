@@ -43,7 +43,7 @@ export default function Navigation() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
             <NavItem titleItem="About" linkItem="/" />
             <NavItem titleItem="Skills" linkItem="/Skills" />
             <NavItem titleItem="Services" linkItem="/Services" />

@@ -6,7 +6,7 @@ export default function Navitem({ titleItem, linkItem }) {
     <li className="bg-[#100f3a] text-[#fff]">
       <Link
         to={linkItem}
-        className="block py-2 pr-4 pl-3  rounded md:bg-transparent md:p-0 "
+        className="block py-2 pr-4 pl-3 rounded md:bg-transparent md:p-0 "
       >
         {titleItem}
       </Link>
