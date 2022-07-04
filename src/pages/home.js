@@ -1,11 +1,13 @@
-import React from 'react';
-import Layout from '../components/Layout/Layout';
+import React from "react";
+import HomeSectionDescription from "../components/Homepage/HomeSectionDescription";
+import HomeSectiontitle from "../components/Homepage/HomeSectiontitle";
+import Layout from "../components/Layout/Layout";
 
 export default function home() {
   return (
     <Layout>
-    <p>ùaùa</p>
-
+      <HomeSectiontitle />
+      <HomeSectionDescription />
     </Layout>
   )
 }

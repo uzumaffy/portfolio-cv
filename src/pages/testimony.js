@@ -1,7 +1,11 @@
 import React from 'react';
+import TestimonySectionTitle from '../components/Homepage/Testimony/TestimonySectionTitle';
+import Layout from '../components/Layout/Layout';
 
-export default function testimony() {
+export default function Testimony() {
   return (
-    <div>testimony</div>
+    <Layout>
+      <TestimonySectionTitle/>
+      </Layout>
   )
 }

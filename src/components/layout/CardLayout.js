@@ -3,7 +3,7 @@ import React from "react";
 export default function CardLayout({ src, alt, titlecard, descriptiontiltecard}) {
   return (
     <div className="flex">
-      <div className="px-5">
+      <div className="px-5 py-2">
         <img src={src} alt={alt} />
       </div>
       <div>
