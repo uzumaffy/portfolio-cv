@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Service from "./pages/Services";
-import Testimony from "./pages/Testimony";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
-import Skills from "./pages/Skills";
-import Error from"./pages/Error";
+import Homepage from "./pages/Home";
+import Servicepage from "./pages/Services";
+import Testimonypage from "./pages/Testimony";
+import Contactpage from "./pages/Contact";
+import Portfoliopage from "./pages/Portfolio";
+import Skillspage from "./pages/Skills";
+import Errorpage from"./pages/Error";
 
 
 
@@ -13,13 +13,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Skills" element={<Skills />} />
-        <Route path="/Services" element={<Service />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/Testimony" element={<Testimony />} />
-        <Route path="/Contact" element={<Contact/>} />
-        <Route path="*" element={<Error />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/Skills" element={<Skillspage />} />
+        <Route path="/Services" element={<Servicepage />} />
+        <Route path="/Portfolio" element={<Portfoliopage />} />
+        <Route path="/Testimony" element={<Testimonypage />} />
+        <Route path="/Contact" element={<Contactpage/>} />
+        <Route path="*" element={<Errorpage />} />
       </Routes>
     </Router>
   );
