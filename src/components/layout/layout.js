@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import Footer from '../Footer';
-export default function layout() {
+export default function Layout({children}) {
   return (
     <div className="">
       <Navigation/>

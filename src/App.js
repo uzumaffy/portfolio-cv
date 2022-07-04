@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Service from "./pages/services";
-import Testimony from "./pages/testimony";
-import Contact from "./pages/contact";
-import Portfolio from "./pages/portfolio";
-import Skills from "./pages/skills";
-import Error from"./pages/error";
+import Home from "./pages/Home";
+import Service from "./pages/Services";
+import Testimony from "./pages/Testimony";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Skills from "./pages/Skills";
+import Error from"./pages/Error";
 
 
 
@@ -14,11 +14,11 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Skills />} />
-        <Route path="/services" element={<Service />} />
-        <Route path="/" element={<Portfolio />} />
-        <Route path="/testimony" element={<Testimony />} />
-        <Route path="/" element={<Contact/>} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Services" element={<Service />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Testimony" element={<Testimony />} />
+        <Route path="/Contact" element={<Contact/>} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
