@@ -5,9 +5,10 @@ import Layout from "../components/Layout/Layout";
 
 export default function home() {
   return (
-    <Layout>
-      <HomeSectiontitle />
-      <HomeSectionDescription />
-    </Layout>
-  )
+ 
+      <Layout>
+        <HomeSectiontitle />
+        <HomeSectionDescription />
+      </Layout>
+  );
 }

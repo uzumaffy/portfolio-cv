@@ -1,5 +1,5 @@
 import React from "react";
-import CardTitle from "../../Card/CardTitle";
+import CardTitle from "../Card/CardTitle";
 
 export default function TestimonySectionTitle() {
   return (

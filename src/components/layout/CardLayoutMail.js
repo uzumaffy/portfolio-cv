@@ -4,7 +4,7 @@ import CardLayout from './CardLayout';
 export default function CardLayoutMail() {
   return (
     <CardLayout
-      src="images/email.jpg"
+      src="images/email.webp"
       alt="logo email"
       titlecard="contactme@templatname.com"
       descriptiontiltecard=""
