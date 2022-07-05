@@ -6,8 +6,8 @@ export default function HomeCardSectionProgresscircular({
 }) {
   return (
     <div className ="pr-9">
-      <div class="circle-wrap">
-        <div class="inside-circle ">
+      <div className="circle-wrap">
+        <div className="inside-circle ">
           {pourcentagecard}
           <h3 className="uppercase text-sm py-8">{titlecardsectionprogress}</h3>{" "}
         </div>
