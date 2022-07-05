@@ -1,5 +1,5 @@
-import React from 'react;'
-import Cardservice from './Cardservice'
+import React from 'react';
+import Cardservice from './Cardservice';
 
 export default function CardServicedevweb() {
   return (
