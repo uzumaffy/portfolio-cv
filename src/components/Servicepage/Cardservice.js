@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function CardImage({src,alt, title, description}) {
+export default function Cardservice({src,alt,title,description}) {
   return (
-    <div>
+  <div className='flex pr-3'>
         <div>
             <img src={src} alt={alt}/>
         </div>
@@ -14,4 +14,5 @@ export default function CardImage({src,alt, title, description}) {
         </div>
         </div>
   )
+  
 }
