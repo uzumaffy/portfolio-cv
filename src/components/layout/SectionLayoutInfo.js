@@ -6,12 +6,12 @@ import CardLayoutWeb from './CardLayoutWeb';
 
 export default function SectionLayoutInfo() {
   return (
-    <div className="h-screen flex flex-col">
+    <div className="flex flex-col">
       <div>
-        <img src="images/image-jb.webp" alt=" image_justin-b" />
+        <img className='h-screen' src="images/image-jb.webp" alt=" image_justin-b" />
       </div>
-      <div>
-        <h2>General Information</h2>
+      <div className='container'>
+        <h3 className=' py-4 text-center text-[#fff] text-xl'>General Information</h3>
         <CardLayoutName/>
         <CardLayoutMail/>
         <CardLayoutWeb/>

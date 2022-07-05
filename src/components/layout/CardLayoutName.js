@@ -5,8 +5,8 @@ export default function CardLayoutName() {
   return (
     <CardLayout
       src="images/name.webp"
-      alt=" logo name"
-      titlecard="Name"
+      alt="logo name"
+      titlecard="Name:"
       descriptiontiltecard="Justin Bieber"
     />
   );

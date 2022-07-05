@@ -3,12 +3,12 @@ import React from "react";
 export default function CardLayout({ src, alt, titlecard, descriptiontiltecard}) {
   return (
     <div className="flex">
-      <div className="px-5 py-2">
+      <div className="pr-5 py-2">
         <img src={src} alt={alt} />
       </div>
       <div>
-        <p className="text-[#f5f0f0]">
-          {titlecard}:
+        <p>
+          {titlecard}
           <span className="text-[#fff]">{descriptiontiltecard}</span>
         </p>
       </div>
