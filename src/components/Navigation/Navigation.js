@@ -2,10 +2,10 @@ import NavItem from "./Navitem";
 
 export default function Navigation() {
   return (
-    <nav className=" bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-      <div className=" text-[20px] flex flex-wrap justify-start items-center mx-auto">
+    <nav className="border-gray-200 py-2.5 rounded">
+      <div className="text-[px] flex flex-wrap items-center mx-auto">
         <a href="https://flowbite.com/" className="flex items-center">
-          <span className="font-bold text-xl  whitespace-nowrap dark:text-white">
+          <span className="font-bold text-xl  whitespace-nowrap dark:text-white pr-10">
             Smith<span className="text-[#8583e1] text-[30px]">.</span>CV
           </span>
         </a>
