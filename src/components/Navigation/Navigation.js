@@ -3,7 +3,7 @@ import NavItem from "./Navitem";
 export default function Navigation() {
   return (
     <nav className=" bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded">
-      <div className="flex flex-wrap justify-start items-center mx-auto">
+      <div className=" text-[20px] flex flex-wrap justify-start items-center mx-auto">
         <a href="https://flowbite.com/" className="flex items-center">
           <span className="font-bold text-xl  whitespace-nowrap dark:text-white">
             Smith<span className="text-[#8583e1] text-[30px]">.</span>CV
