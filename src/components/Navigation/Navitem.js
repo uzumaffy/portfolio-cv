@@ -42,7 +42,6 @@ export default function Navitem() {
             className="pl-2 text-center rounded md:bg-transparent md:p-0"
           >
             <li
-              // style={{ backgroundColor: bgColor }}
               className="border-l-2 leading-10 text-center px-3 bg-[#100f3a] text-[#fff]"
             >
               {items.name}
