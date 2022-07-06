@@ -1,17 +1,16 @@
-import React from 'react';
-import {FaGooglePlusG} from "@react-icons/all-files/fa/FaGooglePlusG";
+import React from "react";
+import { GrGooglePlus } from "@react-icons/all-files/gr/GrGooglePlus";
 import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 import { RiTwitterFill } from "@react-icons/all-files/ri/RiTwitterFill";
-import { ImPinterest2 } from "@react-icons/all-files/im/ImPinterest2";
+import { IoLogoPinterest } from "@react-icons/all-files/io/IoLogoPinterest";
 
 export default function IconLayout() {
   return (
-    <div className='flex w-[100%]  text-[red] justify-around  align-center py-8'>
-        <FaGooglePlusG/>
-        <ImPinterest2/>
-        <FaFacebookF/>
-        <RiTwitterFill/>
-        
+    <div className=" flex text-[#a5a55a5a]  justify-evenly  py-10">
+      <GrGooglePlus />
+      <IoLogoPinterest />
+      <FaFacebookF />
+      <RiTwitterFill />
     </div>
-  )
+  );
 }
