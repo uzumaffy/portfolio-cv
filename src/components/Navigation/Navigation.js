@@ -2,7 +2,7 @@ import NavItem from "./Navitem";
 
 export default function Navigation() {
   return (
-    <nav className="border-gray-200 py-2.5 rounded">
+    <nav className="border-gray-200 pt-2.5 rounded">
       <div className="text-[px] flex flex-wrap items-center mx-auto">
         <a href="https://flowbite.com/" className="flex items-center">
           <span className="font-bold text-xl  whitespace-nowrap dark:text-white pr-10">
@@ -42,13 +42,8 @@ export default function Navigation() {
             ></path>
           </svg>
         </button>
-        <div
-          className="hidden bg-[#100f3a] w-full md:block md:w-auto"
-          id="mobile-menu"
-        >
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium ">
-           <NavItem/>
-          </ul>
+        <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+          <NavItem />
         </div>
       </div>
     </nav>

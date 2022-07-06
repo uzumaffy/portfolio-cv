@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navitem() {
   const items = [
@@ -29,19 +29,36 @@ export default function Navitem() {
       name: "Contact",
       slug: "/Contact",
       id: 6,
-    }
+    },
   ];
+//   let currentPage = useLocation();
+//   let bgColor="";
+//  if (currentPage.pathname === "/Services") {
+//    bgColor = "#100f3a";
+
+//  } else {
+//   bgColor = "#100f3a";
+  
+//  }
+
   return (
     <>
-      {items.map((items) => (
-        <Link
-          to={items.slug}
-          key={items.id}
-          className="block  py-2 pr-4 pl-3 rounded md:bg-transparent md:p-0 "
-        >
-          <li className="px-3 leading-10 text-[#fff]">{items.name}</li>
-        </Link>
-      ))}
+      <ul className="flex flex-col mt-4 md:flex-row md:mt-0 md:text-sm md:font-medium">
+        {items.map((items) => (
+          <Link
+            to={items.slug}
+            key={items.id}
+            className="pl-2 text-center rounded md:bg-transparent md:p-0"
+          >
+            <li
+              // style={{ backgroundColor: bgColor }}
+              className="border-l-2 leading-10 text-center px-3 bg-[#100f3a] text-[#fff]"
+            >
+              {items.name}
+            </li>
+          </Link>
+        ))}
+      </ul>
     </>
   );
 }
