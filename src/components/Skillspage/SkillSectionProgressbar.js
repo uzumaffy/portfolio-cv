@@ -34,8 +34,8 @@ export default function SkillSectionProgressbar() {
   return (
     <div className="pt-8 ">
       {itemsprogress.map((itemsprogress) => (
-        <div className="py-2">
-          <div className="flex justify-between">
+        <div key={itemsprogress.key}className="py-2">
+          <div className="flex justify-between" >
             <h4 className="font-semibold">{itemsprogress.name}</h4>
             <div>
               <p>{itemsprogress.pourcentage}</p>
@@ -52,3 +52,4 @@ export default function SkillSectionProgressbar() {
     </div>
   );
 }
+
