@@ -1,7 +1,11 @@
 import React from 'react';
+import CardLayout from './CardLayout';
 
 export default function CardLayoutLocation() {
   return (
-    <div>CardLayoutLocation</div>
+    <CardLayout
+    src=""
+    alt=""
+    titlecard="Location: " descriptiontiltecard="London UK"/>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import CardLayoutAppel from './CardLayoutAppel';
+import CardLayoutLocation from './CardLayoutLocation';
 import CardLayoutMail from './CardLayoutMail';
 import CardLayoutName from './CardLayoutName';
 import CardLayoutWeb from './CardLayoutWeb';
@@ -14,6 +15,7 @@ export default function SectionLayoutInfo() {
       <div className='container'>
         <h3 className=' py-4 text-center text-[#fff] text-xl'>General Information</h3>
         <CardLayoutName/>
+        <CardLayoutLocation/>
         <CardLayoutMail/>
         <CardLayoutWeb/>
         <CardLayoutAppel/>
