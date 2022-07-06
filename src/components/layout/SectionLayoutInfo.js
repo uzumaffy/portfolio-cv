@@ -3,6 +3,7 @@ import CardLayoutAppel from './CardLayoutAppel';
 import CardLayoutMail from './CardLayoutMail';
 import CardLayoutName from './CardLayoutName';
 import CardLayoutWeb from './CardLayoutWeb';
+import IconLayout from './IconLayout';
 
 export default function SectionLayoutInfo() {
   return (
@@ -17,6 +18,7 @@ export default function SectionLayoutInfo() {
         <CardLayoutWeb/>
         <CardLayoutAppel/>
       </div>
+      <IconLayout/>
     </div>
   );
 }

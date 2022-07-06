@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navitem() {
   const items = [
@@ -31,15 +31,6 @@ export default function Navitem() {
       id: 6,
     },
   ];
-//   let currentPage = useLocation();
-//   let bgColor="";
-//  if (currentPage.pathname === "/Services") {
-//    bgColor = "#100f3a";
-
-//  } else {
-//   bgColor = "#100f3a";
-  
-//  }
 
   return (
     <>
