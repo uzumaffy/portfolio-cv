@@ -6,11 +6,11 @@ export default function Layout({ children }) {
   return (
     <div className="container">
       <Navigation />
-      <main className="flex">
+      <main className="lg-flex-col md:flex-col  sm:flex">
         <div className=" bg-[#100f3a]">
           <SectionLayoutInfo />
         </div>
-        <div className="px-2 bg-[#f5f0f0]">{children}</div>
+        <div className="px-2   bg-[#f5f0f0]">{children}</div>
       </main>
       <Footer />
     </div>
