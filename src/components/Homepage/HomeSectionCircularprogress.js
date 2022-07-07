@@ -3,7 +3,7 @@ import HomeCardSectionProgresscircular from './HomeCardSectionProgresscircular'
 
 export default function HomeSectionCircularprogress() {
   return (
-    <div className='flex'>
+    <div className=" md:flex sm:flex">
       <HomeCardSectionProgresscircular
         titlecardsectionprogress="intuition"
         pourcentagecard="75%"
