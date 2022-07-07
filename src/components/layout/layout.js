@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="container">
       <Navigation />
-      <main className="lg-flex-col md:flex-col  sm:flex">
+      <main className="lg-flex-col md:flex  sm:flex">
         <div className=" bg-[#100f3a]">
           <SectionLayoutInfo />
         </div>
