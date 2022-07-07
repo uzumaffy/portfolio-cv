@@ -5,7 +5,7 @@ export default function CarouselTestimony() {
   return (
     <div id="default-carousel" className="relative " data-carousel="static">
       {/* <!-- Carousel wrapper --> */}
-      <div className=" overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+      <div className=" relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
         {/* <!-- Item 1 --> */}
         <div
           className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
@@ -36,27 +36,9 @@ export default function CarouselTestimony() {
           </div>
         </div>
         {/* <!-- Item 2 --> */}
-        <div
-          className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
-          data-carousel-item=""
-        >
-          <img
-            src="/docs/images/carousel/carousel-2.svg"
-            className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
+        <div></div>
         {/* <!-- Item 3 --> */}
-        <div
-          className="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10"
-          data-carousel-item=""
-        >
-          <img
-            src="/docs/images/carousel/carousel-3.svg"
-            className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
-            alt="..."
-          />
-        </div>
+        <div></div>
       </div>
       {/* <!-- Slider indicators --> */}
       <div className="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
@@ -97,9 +79,9 @@ export default function CarouselTestimony() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M15 19l-7-7 7-7"
             ></path>
           </svg>
@@ -120,9 +102,9 @@ export default function CarouselTestimony() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M9 5l7 7-7 7"
             ></path>
           </svg>

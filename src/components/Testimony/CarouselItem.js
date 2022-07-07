@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CarouselItem({ titlecarousel, src, alt }) {
   return (
-    <div className="bg-[#fff] w-[200px]  px-5 mx-4 border-3">
+    <div className="bg-[#fff] w-[200px] h-[450px] px-5 mx-4 border-3">
       <div className="py-3">
         <h2 className="text-[#444] font-bold">{titlecarousel}</h2>
         <p>
@@ -11,9 +11,9 @@ export default function CarouselItem({ titlecarousel, src, alt }) {
           iturut magna. Pallentesque sit
         </p>
       </div>
-      <div className="pb-4">
+      <div className="">
         <img className="rounded-full py-2" src={src} alt={alt} />
-        <div className="w-8 flex">
+        <div className="flex">
           <div>
             <h4 className="text-[#8583e1]">Diane Smith</h4>
           </div>
