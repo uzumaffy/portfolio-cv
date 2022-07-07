@@ -4,13 +4,13 @@ import Footer from "../Footer";
 import SectionLayoutInfo from "./SectionLayoutInfo";
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="container">
       <Navigation />
       <main className="flex">
         <div className=" bg-[#100f3a]">
           <SectionLayoutInfo />
         </div>
-        <div className="container px-2 bg-[#f5f0f0]">{children}</div>
+        <div className="px-2 bg-[#f5f0f0]">{children}</div>
       </main>
       <Footer />
     </div>
