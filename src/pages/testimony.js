@@ -6,9 +6,9 @@ import TestimonySectionTitle from '../components/Testimony/TestimonySectionTitle
 
 export default function Testimony() {
   return (
-    <Layout>
-      <TestimonySectionTitle/>
-      <CarouselTestimony/>
-      </Layout>
-  )
+    <Layout className="bg-[#f5f0f0]">
+      <TestimonySectionTitle />
+      <CarouselTestimony />
+    </Layout>
+  );
 }

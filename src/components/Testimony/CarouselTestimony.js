@@ -11,7 +11,7 @@ export default function CarouselTestimony() {
           className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
           data-carousel-item=""
         >
-          <div className="flex">
+          <div className="md:flex sm:flex">
             <div>
               <CarouselItem
                 titlecarousel="Rapide et efficace"

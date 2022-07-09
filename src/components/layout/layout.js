@@ -10,7 +10,8 @@ export default function Layout({ children }) {
         <div className=" bg-[#100f3a]">
           <SectionLayoutInfo />
         </div>
-        <div className="px-2   bg-[#f5f0f0]">{children}</div>
+        <div className="px-2 bg-[#f5f0f0] conntainer">{children}
+        </div>
       </main>
       <Footer />
     </div>

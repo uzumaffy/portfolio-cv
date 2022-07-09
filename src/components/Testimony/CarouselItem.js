@@ -11,7 +11,7 @@ export default function CarouselItem({ titlecarousel, src, alt }) {
           iturut magna. Pallentesque sit
         </p>
       </div>
-      <div className="">
+      <div className="pb-6">
         <img className="rounded-full py-2" src={src} alt={alt} />
         <div className="flex">
           <div>
