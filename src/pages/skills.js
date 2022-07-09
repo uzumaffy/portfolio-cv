@@ -9,6 +9,6 @@ export default function skills() {
       <SkillsSectionTitle />
       <SkillsSectionDescription />
       <SkillSectionProgressbar />
-    </Layout>
+      </Layout>
   );
 }

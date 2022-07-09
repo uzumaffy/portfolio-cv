@@ -5,10 +5,10 @@ import CardServiceSeo from './CardServiceSeo';
 
 export default function SectionCardservice() {
   return (
-    <div className='py-9 flex'>
-        <CardServicedevweb/>
-        <CardServiceMaintenace/>
-        <CardServiceSeo/>
+    <div className="py-9 md:flex sm:flex">
+      <CardServicedevweb />
+      <CardServiceMaintenace />
+      <CardServiceSeo />
     </div>
-  )
+  );
 }
