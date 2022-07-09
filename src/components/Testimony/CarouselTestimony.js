@@ -3,7 +3,11 @@ import CarouselItem from "./CarouselItem";
 
 export default function CarouselTestimony() {
   return (
-    <div id="default-carousel" className="relative " data-carousel="static">
+    <div
+      id="default-carousel"
+      className="relative"
+      data-carousel="static"
+    >
       {/* <!-- Carousel wrapper --> */}
       <div className=" relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
         {/* <!-- Item 1 --> */}
